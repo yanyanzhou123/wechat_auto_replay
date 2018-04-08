@@ -22,7 +22,7 @@ def reply_text(msg):
 
 def tuling(info):
 
-    appkey   = "e5ccc9c7c8834ec3b08940e290ff1559"
+    appkey   = *************"
     url      = "http://www.tuling123.com/openapi/api?key=%s&info=%s"%(appkey,info)
     req      = requests.get(url)
     content  = req.text
